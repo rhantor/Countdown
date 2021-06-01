@@ -47,4 +47,29 @@ h1 {
 #days{
   color:blue;
 }
-
+#hours{
+  color: red;
+}
+#span{
+  color: rgb(100, 3, 247);
+}
+#mins{
+  color: rgb(243, 138, 52);
+}
+#span1{
+  color:orangered;
+}
+#seconds{
+  color: coral;
+}
+#span2{
+  color: rgb(150, 21, 209);
+}
+@media screen and (max-width : 420px) {
+  body{
+    background-position: -270px center;
+  }
+  #span2{
+    color: rgb(220, 221, 225);
+  }
+}
